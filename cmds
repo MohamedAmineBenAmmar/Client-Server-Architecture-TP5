@@ -1,0 +1,4 @@
+javac *.java
+orbd -ORBInitialPort 1500
+java Serveur -ORBInitialPort 1500
+java Client
