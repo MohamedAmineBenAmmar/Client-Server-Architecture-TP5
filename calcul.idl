@@ -1,0 +1,5 @@
+module Calcul{
+    interface calcul_montants {
+        double calcul_ttc(in double ht, in double tva);
+    };
+};
